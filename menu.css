@@ -1,0 +1,241 @@
+
+body
+{
+	padding :15px ;
+	font-family :arial ;
+	text-align: center;
+	background-image: url("pics/002.jpg");
+	background-size: 100% 100%;	
+	background-position : left bottom ;
+	background-attachment:fixed ;
+	height:100%;
+	font-size: 1.1em;
+	font-family: "Tahoma", Times, serif;
+	
+}
+.galleria
+{
+	width: 700px; 
+	height: 400px; 
+	background: #000 
+}
+p
+{
+	margim: 5px;
+}
+.pic
+{
+	margin: 15px;
+	float: left;
+	padding: 10px;
+	max-width: 400px;
+	margin: auto;
+	box-shadow: 10px 10px 20px;
+	display : inline-block;
+	border-radius : 20px ;
+}
+.generaldiv
+{
+	background-color: 51FF6B;
+	max-width:1100px;
+	border: dashed gray 1px;
+	margin: auto;
+	border-radius: 30px;
+	position : relative;
+}
+.koteret
+{
+	padding-top: 12px;
+	border-radius: 50px 50px 50px 50px;
+	text-align: center;
+	position : relative ; 
+	height: 140px;
+	text-align: center;
+}
+.koteret h1
+{
+	text-align :center;
+	font-size : 200%;
+	font-weight: bold;
+	border : none;
+	font-weight : 400;
+	margin : 0px;
+	padding : 0px
+}
+#center1
+{
+	background-color: 68FFD6;
+	vertical-align: top;
+	padding: 0px;
+	max-width:1100px;
+}
+#sidebar
+{
+	text-align: right;
+	display: inline-block;
+	padding: 5px;
+	max-width: 180px;
+	vertical-align: top;
+}
+.content1
+{
+	display : inline-block;
+	direction: rtl;
+	background-color: BBCFF1;
+	max-width: 680px;
+	display: inline-block;	
+	padding: 30px;
+	text-align: right;
+}
+.content1 a
+{
+	color: FF463D;
+}
+ul#side {
+    margin-right: -44px;
+}
+#footer
+{
+	height: 25px;	
+	background-color: #FFE260;	
+	padding: 0px;
+	text-align: center;
+	border-radius: 0px 0px 30px 30px;
+}
+h1 
+{
+	margin : 0px;
+	padding : 0px;
+	padding-right : 20px;
+	margin-top: 30px 
+	margin-bottom : 30px;
+	font-size: 150%;
+	border-bottom: 1px dotted black;
+	text-align : right;
+}
+h2
+{
+	margin : 0px;
+	padding : 0px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	font-size : 100%; 
+	text-align : right;
+	color: FF7632;
+}
+#tafrit1 .submenu
+{
+	position: absolute;
+	top: 31px; 
+	right: 0px;
+	display: none; 
+	list-style: none;
+	text-align: right;
+	padding: 0px;
+}
+.submenu> li
+{
+	background-color: F45666;
+}
+#tafrit1 .submenu li a
+{
+	text-decoration: none;
+	padding: 0px 5px;
+
+}
+#tafrit1 li:hover .submenu
+{
+	display: block;
+}
+a:hover
+{
+	color: 353FFF;
+}
+li
+{
+	display: inline-block;
+	padding: 20px;
+	width: 110px;
+	border: solid 1px black;
+}
+
+#tafrit1 > li
+{
+	position: relative;
+	padding: 5px 30px;
+	display: inline-block;
+	text-align: center;
+	border: 1px black solid;
+	background-color: 87BBFF;
+}
+.current 
+{
+	background: FF9953 ;
+	color: black !important
+}
+.current_bold
+{
+	font-weight: bold;
+	color: FF8E2B;
+}
+.current_white
+{
+	background: white !important;
+}
+textarea
+{
+	width : 95%;
+	height: 250px ;  
+	border-radius : 5px ;  
+	border :1px black solid ;
+}
+input:focus 
+{
+	box-shadow : 5px 5px 10px gray;
+}
+textarea:focus 
+{
+	box-shadow : 5px 5px 10px gray;
+}
+.part1
+{
+	width : 250px ;
+	display : inline-block ;
+	margin: 20px ;
+	vertical-align: top;
+}
+.part2
+{
+	width : 250px ;
+	display : inline-block ;
+	margin: 20px ;
+	vertical-align: top;
+	
+}
+.label1
+{
+	width : 150px ; 
+	display : inline-block ; 
+	font-size : 80% ; 
+	margin: 10px ; 
+	margin-right : 5px;
+}
+.input1 
+{       
+	width : 200px;
+	height : 22px;
+	border-radius : 5px ; 
+	border :1px black solid  ;     
+}
+.sub
+{
+	margin:20px;
+	height:30px;
+	width : 200px;
+	border-radius : 5px ;
+	border : 1px solid black;
+	background : #FFFF4F ;
+	float : left;
+	font-size: 120%;
+	text-align: center;
+}
